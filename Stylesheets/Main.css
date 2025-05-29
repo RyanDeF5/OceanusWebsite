@@ -1,0 +1,123 @@
+            p, button{
+                font-family: "EB Garamond";
+                font-weight: normal;
+                color: rgb(18, 18, 104); 
+            }
+            .top-photo-container{
+                display: inline-block;
+                z-index: 1;
+            }
+            .top-photo{
+                width: 1820px;
+                height: 1080px;
+            }
+            
+            .slogan-main-img1{
+                position: absolute;
+                top: 30%;
+                left: 10%;
+                color: white;
+                font-size: 50px;
+            }
+            .slogan-main-img2{
+                position: absolute;
+                top: 37%;
+                left: 10%;
+                color: white;
+                font-size: 50px;
+                font-weight: 700;
+            }
+            .slogan-main-img3{
+                position: absolute;
+                top: 98%;
+                left: 10%;
+                background-color: rgba(0, 0, 0, 0.1); 
+                color: white;
+                font-size: 50px;
+                font-weight: 700;
+            }
+            
+            .slogan-main{
+                font-size: 50px;
+            }
+            .mainButtonTheme{
+                color: white;
+                background-color: rgb(18, 18, 104);
+                font-family: "Montserrat";
+                font-size: 28px;
+                font-weight: 400;
+                border-style: none;
+                border-color: white;
+                cursor: pointer;
+                transition: opacity 0.15s;
+                width: 100%;
+                padding: 5px;
+            }
+            .mainButtonTheme:hover{
+                color: rgb(18, 18, 104);
+                background-color: white;
+            }
+            .options{
+                display: inline-block;
+                text-align: center;
+                padding: 5px;
+                margin: 120px 0 0 0;
+            }
+            .View-Image{
+                width: 100%;
+                height: 288px;
+            }
+            .clickPanel{
+                display: grid;
+                gap: 20px;
+                justify-content: center;
+                grid-template-columns: 500px 500px 500px;
+            }
+            .about-section{
+                display: flex;
+                flex-direction: row;
+                margin: 120px 200px 0px 200px;
+            }
+            .about-section-title{
+                margin: 20px 0 20px 0;
+                font-size: 50px;
+                font-family: "EB Garamond";
+            }
+            .about-section-body{
+                margin: 0 80px 0 0;
+                font-family: "Montserrat";
+                font-size: 25px;
+            }
+            .pre-footer{
+                background: linear-gradient(to top, rgb(18, 18, 104), rgba(0, 0, 0, 0));
+                margin-top: 200px;
+                height: 40px;
+            }
+            .footer{
+                display: flex;
+                background: rgb(18, 18, 104);
+                padding: 50px 100px 100px 260px;
+                flex-direction: row;
+            }
+            .footer-titles{
+                font-size: 30px;
+                color: white;
+                font-weight: 500;
+                margin-right: 20px;
+                font-family: "Montserrat";
+                margin-bottom: 20px;
+
+            }
+            .footer-line{
+                font-size: 20px;
+                color: white;
+                font-weight: 500;
+                margin-right: 30px;
+                font-family: "Montserrat";
+                
+            }
+            .footer-container{
+                display: grid;
+                place-items: center;
+            }
+            

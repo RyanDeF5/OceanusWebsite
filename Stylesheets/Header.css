@@ -1,0 +1,50 @@
+            .header-top{
+                position: fixed;
+                margin: 0 0 0 0;
+                background: linear-gradient(to bottom, rgb(8, 0, 128), rgba(0, 0, 0, 0));
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                z-index: 100;
+            }
+            .logo-image{
+                width: 160px;
+                height: 75px;
+                overflow: hidden;
+                object-fit: covers;
+            }
+            .header{
+                display: block;
+                text-align: center;
+                padding: 0px;
+                margin: 5px 0 0 0;
+            }
+            .slogan{
+                display: block;
+                color: white;
+                margin-top: 5px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .Navigation-Row-Flex{
+                display: flex;
+                margin: 0 0 0 0;
+                align-items: center;
+            }
+            .Nav-Row-Button{
+                color: white;
+                font-family: "EB Garamond";
+                font-size: 25px;
+                font-weight: 400;
+                border-color: white;
+                background-color: rgba(0, 0, 0, 0.2); 
+                transition: opacity 0.15s;
+                flex: 1;
+                border-bottom: none;
+                border-top: none;
+                border-color: white;
+            }
+            .Nav-Row-Button:hover{
+                color: rgb(18, 18, 104);
+                background-color: white;
+            }
